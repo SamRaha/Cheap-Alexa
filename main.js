@@ -3,8 +3,8 @@ const content = document.querySelector('.content');
 
 //speech that it recognises
 
-const questionsList = [ 'how are you', 'are you a robot', 'where are you' ];
-const answersList = [ 'good', 'what do you think?', 'in your computer' ];
+const questionsList = [ 'how are you', 'are you a robot', 'where are you', 'is it sunny' ];
+const answersList = [ 'good', 'what do you think?', 'in your computer', 'why dont you look outside' ];
 
 // identifiying the window element of speech recongition API
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
